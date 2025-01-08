@@ -21,9 +21,8 @@ class linkedList:
     #     self.Head = nd
     #     self.Tail = nd        
     
-    ## add function
+    ## add function : creating new node and add it at the end of the list
     def Add(self,data):
-        ## creating new node 
         nd = Node(data)
 
         ##frist case empty linkedlist:which mean that head & tail are none
@@ -39,7 +38,7 @@ class linkedList:
         
 
 
-    ### insert node in a specific location
+    ### insert node in a specific location if the location is out of the range insert at the end 
     def insert(self , data , loc):
         nd = Node(data)
         
